@@ -1,0 +1,2226 @@
+*
+{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body
+{
+    overflow-x: hidden;
+   
+   
+}
+/* start sec1 */
+.sec1
+{
+    width: 100%;
+    height: auto;
+    background-image:url('../images/bc_header.jpg');
+    background-size:100% auto ;
+    padding: 10px 0px;
+   
+    
+}
+
+
+.fa-face-grin-wink
+{
+color:wheat;
+}
+
+.sec1 .div1 h2
+{
+    color: white;
+    font-size: 44px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+  
+}
+/* end sec1 */
+
+/* start sec2 */
+.sec2
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background-color: #DDD;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+
+.sec2 .div1 ul li
+{
+    display: inline;
+    margin: 0px 7px;
+    opacity: 0;
+    transition: all 8s ease-in-out;
+}
+.sec2 .div1 ul li a
+{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.sec2 .div1 ul li a:hover
+{
+    color: brown;
+    border-bottom: 5px solid brown;
+    padding-bottom: 7px;
+
+}
+
+.modal-body .div1 h1
+{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.modal-body .div1
+{
+    margin-top: 30px;
+}
+
+.modal-body .div1 h1 a
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.modal-body .div1 h1 a:hover
+{
+    color: brown;
+    border-bottom: 5px solid brown;
+    padding-bottom: 7px;
+
+}
+
+.sec2 .div2 h1
+{
+    font-size: 17px;
+    font-weight: bolder;
+    font-weight: bolder;
+    opacity: 0;
+    transition: all 5s ease-in-out;
+
+}
+.sec2 .div2 .fa-user-tie
+{
+    font-size: 27px;
+    margin-right: 4px;
+}
+.sec2 .div2
+{
+    margin-top: -24px;
+}
+
+.sec2 .div3 button
+{
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0;
+    transition: all 4s ease-in-out;
+ 
+}
+.head
+{
+   
+    font-size: 29px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 20px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+    margin: 26px auto;
+    margin-top: 50px;
+
+}
+.my_image
+{
+    width: 22%;
+    margin: auto;
+    height: 100px;
+    border-radius: 100px;
+    
+
+}
+.my_image img
+{
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    border-radius: 100px;
+    
+}
+
+#clos_u
+{
+    opacity: 1;
+    font-size: 45px;
+    background-color: #5d3030;
+    color: #ffffff;
+
+}
+.modal-body_2 input
+{
+    width: 50%;
+    margin: 30px auto;
+    font-size: 17px;
+    background-color: #1c212500;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-weight: bolder;
+    border-bottom: 3px solid #e6dada45;
+
+}
+.modal-body_3 input
+{
+    width: 100%;
+    margin: 30px auto;
+    font-size: 20px;
+    background-color: #1c212500;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    font-weight: bolder;
+    border-bottom: 3px solid #e6dada45;
+
+}
+.cont
+{
+    width: 50%;
+    margin:20px auto;
+  
+}
+.cont button
+{
+    min-width: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+    /* background-image: url(../images/wa4.gif); */
+    border: none;
+    outline: none;
+    background: #252a2f;
+    border: 4px solid black;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.cont button:focus
+{
+    border: none;
+    outline: none;
+   
+}
+
+.new_account
+{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.new_account2
+{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.modal-body_2 input:focus
+{
+    transform: scale(1.1 , 1.1);
+    border: none;
+    outline: none;    
+}
+.modal-body_3 input:focus
+{
+    transform: scale(0.9 , 0.9);
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    animation: hi 0.3s 4 linear;
+}
+@keyframes hi {
+    from{border-color: darkred;}
+    to{  background-color: #1c212500;}
+
+}
+
+.user
+{
+    width: 50%;
+    margin: -19px auto;
+    font-size: 14px;
+    color: white;
+
+
+}
+#bv
+{
+    background-image:url('../images/f.png');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    z-index: 12000000;
+}
+#bv1
+{
+    background-image:url('../images/f.png');
+    background-repeat: no-repeat;
+    background-size: 100% 1100px;
+    width: 100%;
+    height: 1100px;
+    padding: 20px;
+    z-index: 12000000;
+}
+
+.xvc
+{
+    height:1000px ;
+    border-radius: 0;
+    margin-top: -31px; 
+}
+.join
+{
+    min-width: 100%;
+    margin: 32px 0px;
+    height: 47px;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+}
+.join:focus
+{
+    border: none;
+    outline: none;
+}
+
+.join:hover
+{
+    background-color: #1c212500;
+    color: rgb(194, 128, 128);
+       font-size: 20px;
+       letter-spacing: 20px;
+
+}
+.sec2 .div3 button:focus
+{   
+border: none;
+outline: none;
+}
+
+
+.modal-body .div3 button
+{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 47%;
+}
+.modal-body .div3 button:focus
+{   
+border: none;
+outline: none;
+}
+.modal-body .div3
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.modal-body #cv_my
+{
+    font-size: 19px;
+    font-weight: bolder;
+    margin-top: 68px;
+}
+.glyphicon-th
+{
+    font-size: 50px;
+   text-align: right;
+}
+.glyphicon-th:hover
+{
+    cursor: pointer;
+}
+
+
+.se1
+{
+    display: block;
+    overflow: hidden;
+    width: 30%;
+
+}
+.fa-circle-xmark
+{
+    opacity: 1;
+    font-size: 37px;
+}
+
+.ima
+{
+   width: 50%;
+    margin: auto;
+    position: absolute;
+    top: -54px;
+    left: 94px;
+}
+
+.ima img
+{
+    width : 60%;
+    height: 144px;
+}
+
+#exampleModal
+{
+       width: 30%;
+       overflow: hidden;
+}
+/* end sec2 */
+
+/* start sec3 */
+
+
+
+.sec3
+{
+    width: 100%;
+    padding: 20px 0px;
+    height: auto;
+ 
+}
+
+.sec3 p
+{
+    text-align: left;
+    font-size: 17px;
+    color: black;
+}
+.sec3 h1
+{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    border-bottom: 3px solid;
+    width: 30%;
+    padding-bottom: 10px;
+    font-style: italic;
+
+}
+.sec3 .div1
+{
+    width: 100%;
+    word-wrap: break-word;
+    transition: all 2s ease-in-out;
+    top: 100px;
+   position: relative;
+   opacity: 0;
+}
+.sec3 .div2 img
+{
+    width: 100%;
+    position: relative;
+    right: 2000px;
+    transition: all 4s ease-in-out;
+}
+/* end sec3 */
+
+
+/* start sec4 */
+
+.sec4
+{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    background:url('../images/bac.jpg') no-repeat center center fixed ;
+    background-size: 100% 100%;
+}
+
+
+
+.sec4 .div1
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/boo.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+   margin-top: 50px;
+   opacity: 0;
+   
+}
+
+.sec4 .div_imag
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div1:hover .div_imag
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div1:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+    width: 100%;
+}
+.sec4 .div_imag h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+.sec4 .div2
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/html.jpg') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+   margin-top: 50px;
+   opacity: 0;
+}
+
+.sec4 .div_imag1
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div2:hover .div_imag1
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div2:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+
+
+
+.sec4 .div_imag1 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag1 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+
+.sec4 .div3
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/c++.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+   margin-top: 50px;
+   opacity: 0;
+}
+
+.sec4 .div_imag2
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div3:hover .div_imag2
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div3:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag2 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag2 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+.sec4 .div4
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/js2.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+     opacity: 0;
+}
+
+.sec4 .div_imag3
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div4:hover .div_imag3
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div4:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag3 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag3 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.sec4 .div5
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/css.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+     opacity: 0;
+}
+
+.sec4 .div_imag4
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div5:hover .div_imag4
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div5:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag4 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag4 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.sec4 .div6
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/gava.jpg') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+   
+}
+
+.sec4 .div_imag5
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div6:hover .div_imag5
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div6:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag5 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag5 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+.sec4 .div7
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/php.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+     opacity: 0;
+}
+
+.sec4 .div_imag6
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div7:hover .div_imag6
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div7:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag6 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag6 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.sec4 .div8
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/paython.png') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+   
+}
+
+.sec4 .div_imag7
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div8:hover .div_imag7
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div8:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag7 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag7 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.sec4 .div9
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/mysql.jpg') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+     opacity: 0;
+}
+
+.sec4 .div_imag8
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div9:hover .div_imag8
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div9:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag8 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag8 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+.sec4 .div10
+
+{
+    width: 100%;
+    height: 300px;
+   background-image:url('../images/sql_server.jpg') ;
+   background-size: 100% 300px;
+   transition: all 0.7s ease-in-out;
+     margin-top: 50px;
+   
+}
+
+.sec4 .div_imag9
+{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    padding: 20px;
+}
+.sec4 .div10:hover .div_imag9
+{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.sec4 .div10:hover
+{
+    /* transform: scale(1.1 , 1.1); */
+    transform: rotate(360deg);
+    box-shadow: 10px 10px 10px;
+}
+.sec4 .div_imag9 h4
+{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #DDD;
+    padding: 10px;
+
+}
+.sec4 .div_imag9 p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* end sec4 */
+
+
+/* start sec5 */
+.sec5
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+
+
+
+.sec5
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    
+}
+.sec5  h1
+{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.lj
+{
+    font-size: 30px;
+}
+.sec5 .div1 img
+{
+    width: 100%;
+    opacity: 0;
+    position: relative;
+    right: 100px;
+    transition: all 2s ease-in-out;
+
+}
+/* end sec5 */
+
+
+/* start sec6 */
+
+.sec6
+{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+  
+}
+.sec6 .Responsive
+{
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px;
+    transition: all 2s ease-in-out;
+
+    
+}
+.sec6 .div1 img
+{
+    width: 100%;
+}
+
+.sec6 .div1 p
+{
+    font-size: 17px;
+    text-align: left;
+}
+
+
+.sec6 .div1
+{
+    margin-top: 30px;
+} 
+.sec6 .aq 
+{
+    margin-top: 50px;
+}
+.sec6 .div11
+{
+    margin-top: -53px;
+
+}
+.sec6 .div11 img
+{
+    width: 100%;
+}
+.z1
+{
+    background-color: yellow;
+    color: black;
+}
+/* end sec6 */
+
+
+/* start sec7 */
+
+.sec7
+{
+
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-image:url('../images/nkrash.png') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-top: 100px;
+
+}
+.sec7 .div1 img
+{
+    width: 100%;
+   
+}
+.sec7 .div1 ul li h1
+{
+        color: wheat;
+        text-align: left;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+}
+.sec7 .div1 ul li 
+{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.sec7 .div1 ul li a
+{
+    color: wheat;
+    font-weight: bolder;
+    font-size:20px;
+    text-decoration: none;
+    transition: all 0.7s ease-in-out;
+}
+.sec7 .div1 ul li a:hover
+{
+    font-size:25px;
+}
+/* end sec7 */
+
+.U_p
+{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(43, 43, 43,1);
+    position: fixed;
+    bottom: 0;
+    right: 30px; 
+    padding: 12px;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+.U_p span
+{
+    font-size: 40px;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+
+
+
+@media (min-width: 300px) and (max-width:500px)
+{
+    #exampleModal {
+        width: 92%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+        height: 814px;
+    }
+}
+
+
+
+
+@media (min-width: 375px) and (max-width:375px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 94%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+    }
+    body
+{
+    overflow-x: hidden;
+}
+    .sec1 .div1 h2 {
+        color: white;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+@media (min-width: 414px) and (max-width:414px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 94%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+    }
+    body
+{
+    overflow-x: hidden;
+}
+    .sec1 .div1 h2 {
+        color: white;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+
+@media (min-width: 390px) and (max-width:393px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 94%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+    }
+    body
+{
+    overflow-x: hidden;
+}
+    .sec1 .div1 h2 {
+        color: white;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+
+
+}
+
+
+
+
+
+@media (min-width: 360px) and (max-width:360px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 94%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+    }
+    body
+{
+    overflow-x: hidden;
+}
+    .sec1 .div1 h2 {
+        color: white;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .sec2 .div2 h1 {
+        font-size: 16px;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+
+@media (min-width: 412px) and (max-width:412px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 94%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+    }
+    body
+{
+    overflow-x: hidden;
+}
+    .sec1 .div1 h2 {
+        color: white;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .sec2 .div2 h1 {
+        font-size: 16px;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+
+@media (min-width: 820px) and (max-width:820px)
+{
+
+   
+    #exampleModal {
+        width: 55%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+        height: 811px;
+    }
+  
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:768px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 70%;
+    overflow: hidden;
+    margin-top: -12px;
+    padding: 75px 0px;
+
+    }
+
+    body
+        {
+            overflow-x: hidden;
+        }
+        .sec1 .div1 h2 {
+            color: white;
+            font-size: 37px;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            opacity: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .sec2 .div2 h1 {
+        font-size: 16px;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+
+    .sec7 .div1 img {
+        width: 60%;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+@media (min-width: 912px) and (max-width:912px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 60%;
+    overflow: hidden;
+    margin-top: -12px;
+    padding: 75px 0px;
+    height: 814px;
+        }
+
+    body
+        {
+            overflow-x: hidden;
+        }
+        .sec1 .div1 h2 {
+            color: white;
+            font-size: 37px;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            opacity: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .sec2 .div2 h1 {
+        font-size: 26px;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+    
+    .sec7 .div1 img {
+        width: 60%;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+@media (min-width: 540px) and (max-width:540px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 95%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 60%;
+    overflow: hidden;
+    margin-top: -12px;
+    padding: 75px 0px;
+    height: 814px;
+        }
+
+    body
+        {
+            overflow-x: hidden;
+        }
+        .sec1 .div1 h2 {
+            color: white;
+            font-size: 25px;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            opacity: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+    .sec3 h1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        border-bottom: 3px solid;
+        width: 65%;
+        padding-bottom: 10px;
+        font-style: italic;
+    }
+
+    .sec2 .div2 h1 {
+        font-size: 16px;
+        font-weight: bolder;
+        font-weight: bolder;
+    }
+    
+    .sec7 .div1 img {
+        width: 60%;
+    }
+
+    
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+}
+
+
+
+
+@media (min-width: 280px) and (max-width:280px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 90%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 97%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+        height: 814px;
+    }
+
+    body
+        {
+            overflow-x: hidden;
+        }
+        .sec1 .div1 h2 {
+            color: white;
+            font-size: 25px;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            opacity: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sec3 h1 {
+            font-weight: bolder;
+            text-align: left;
+            font-size: 24px;
+            color: black;
+            border-bottom: 3px solid;
+            width: 65%;
+            padding-bottom: 10px;
+            font-style: italic;
+        }
+
+        .sec2 .div2 h1 {
+            font-size: 19px;
+            font-weight: bolder;
+            font-weight: bolder;
+        }
+    
+    .sec7 .div1 img {
+        width: 60%;
+    }
+
+
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media (min-width: 412px) and (max-width:412px)
+{
+
+    .sec4 .div_imag , .sec4 .div_imag1 , .sec4 .div_imag2 , .sec4 .div_imag3, .sec4 .div_imag4, .sec4 .div_imag5, .sec4 .div_imag6, .sec4 .div_imag7, .sec4 .div_imag8, .sec4 .div_imag9 {
+        background-color: black;
+        width: 90%;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        padding: 20px;
+    }
+
+    #exampleModal {
+        width: 97%;
+        overflow: hidden;
+        margin-top: -12px;
+        padding: 75px 0px;
+        height: 814px;
+    }
+
+    body
+        {
+            overflow-x: hidden;
+        }
+        .sec1 .div1 h2 {
+            color: white;
+            font-size: 25px;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            opacity: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sec3 h1 {
+            font-weight: bolder;
+            text-align: left;
+            font-size: 24px;
+            color: black;
+            border-bottom: 3px solid;
+            width: 65%;
+            padding-bottom: 10px;
+            font-style: italic;
+        }
+
+        .sec2 .div2 h1 {
+            font-size: 19px;
+            font-weight: bolder;
+            font-weight: bolder;
+        }
+    
+    .sec7 .div1 img {
+        width: 60%;
+    }
+
+    
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width:1024px)
+{
+    .sec2 .div1 ul li a {
+        color: black;
+        font-size: 12px;
+        font-weight: bolder;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+    }
+
+    
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width:1280px)
+{
+    .sec2 .div1 ul li a {
+        color: black;
+        font-size: 17px;
+        font-weight: bolder;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+    
+      .modal-body #cv_my {
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 18px;
+    }
+    
+    
+    .modal-body .div1 h1 {
+        width: 100%;
+        margin-top: 13px;
+    }
+}
+
+
+/* media */
